@@ -14,7 +14,7 @@ class Card extends React.Component {
                  <div className="card-body">
                      <div className="row center">
                          <div className="col-6">
-                            <img src={this.props.image} className="float-rigth"/>
+                            <img src={this.props.img} className="float-rigth"/>
                         </div>
                         <div className="col-6 Fitness-Card-Info">
                             <h1>{this.props.title}</h1>
