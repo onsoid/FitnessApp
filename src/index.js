@@ -8,11 +8,11 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Exercises from './Pages/Exercise'
+import App from './components/App.js'
 import 'bootstrap/dist/css/bootstrap.css'
 
 const container = document.getElementById('root')
 
 //ReactDOM.render ( que --- donde )
 
-ReactDOM.render(<Exercises/>, container)
+ReactDOM.render(<App/>, container)
